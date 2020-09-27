@@ -1,0 +1,461 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Shop Checkout</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+				
+		
+		<!-- Main css -->
+		<link href="assets/css/main-style.css" rel="stylesheet" >
+		
+	</head>
+
+	<body>
+         
+		
+		<!-- Navigation Area
+			===================================== -->
+			<div class="logo-section">
+				<div class="container">
+					<div class="logo-wrap">
+						<div class="logo">
+							<a href="index.html"><img class="" src="assets/images/logo.png" alt=""></a>
+						</div>
+						
+						<div class="widget_product_search">
+							<input type="text" class="form-control search-box" placeholder="Search">
+							<button type="submit" class="submit-search"><i class="fa fa-search"></i></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		<!-- Navigation Area
+        ===================================== -->
+		<div class="navbar-sticky">
+			<nav class="navbar navbar-index-top shadow">
+				<div class="container header-container">
+					<div id="main-menu-wrap"><a href="#" class="menu-trigger"></a></div>
+					<!-- Main Menu -->
+					<div id="main-menu" class="main-nav mega_menu_wrapper ">
+					
+						<ul id="custom-menu" class="main-menu mega_menu">
+							<li class="menu-child-list"><a href="index.html">Home</a></li>
+						<li class="menu-child-list"><a href="about.html">About us</a></li>
+						<li><a href="shop.html">Shop</a></li>
+						<li><a href="shop-single.html">Shop single</a></li>
+						<li><a href="shop-cart.html">Cart</a></li>
+						<li><a href="shop-checkout.html">Checkout</a></li>
+						<li class="menu-child-list"><a href="contact-us.html">Contact</a></li>
+						</ul>
+					</div>
+					
+					<div class="pull-right nav-right-section">
+						<ul class=" navbar-mini-cart-wrapper">
+							<li>
+								<i class="fa fa-phone" aria-hidden="true"></i> +021-3456-789
+							</li>
+							<li>
+								<a href="#" class="navbar-mini-cart-btn">
+									<i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+									<span class="item-count">21</span>
+								</a>
+								<ul class="navbar-mini-cart">
+									<li class="item">
+										<div class="product-img">
+											<img src="assets/images/products/small-1.jpg" alt="">
+										</div>
+										<div class="product-details">
+											<h6>Name of the product</h6>
+											<p>$255.5</p>
+											<a href="#"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+										</div>
+									</li>
+									<li class="item">
+										<div class="product-img">
+											<img src="assets/images/products/small-2.jpg" alt="">
+										</div>
+										<div class="product-details">
+											<h6>Name of the product</h6>
+											<p>$155.5</p>
+											<a href="#"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+										</div>
+									</li>
+									<li class="minicart-price-total">
+										<div class="price-total">
+											<span class="label-price-total">Subtotal</span>
+											<div class="price-total-w">
+												<span>$255.5</span>
+											</div>
+										</div>
+
+										<div class="checkout-btn">
+											<a href="shop-cart.html" class="btn btn-default">View Cart</a>
+											<a href="shop-checkout.html" class="btn btn-default ml-5">checkout</a>
+										</div>
+									</li>
+								</ul>
+							</li>
+						</ul> <!-- end  navbar-mini-cart -->
+					</div>
+				</div>
+
+			</nav>
+		</div>
+		
+		<div id="page_wrapper"></div>
+		
+		<!-- Common Header Area
+        ===================================== -->
+		<section>
+			<div class="breadcrumps-back">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="breadcrumps-heading">
+								<h1>Shop</h1>
+								<div class="breadcrumps-border"></div>
+								<ul>
+									<li> <a href="index.html"> Home</a> /</li>
+									<li> <a href="#"> Shop</a></li>
+									<li></li>
+								</ul>
+								
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section id="shop-checkout" class="ptb-100">
+			<div class="container">
+                <div class="row">
+					<div class="col-md-12">
+						<div class="form-method-check">
+							<p>
+								<i class="fa fa-check-square" aria-hidden="true"></i> Want To log in? <a>Click Here</a>
+							</p>
+						</div>
+						<div class="login-method pt-20">
+							<form method="post" class="login contact-form">
+
+								<p class="pb-20">
+									If you have shopped with us before, please enter your details in the boxes below. If you are a new customer, please proceed to the Billing & Shipping section.
+								</p>
+
+								<div class="col-xs-6">
+									<label class="login-label" for="username">Name <span class="required">*</span></label>
+									<input type="text" class="form-control" name="username" id="username" placeholder="Name">
+								</div>
+								<div class="col-xs-6">
+									<label class="login-label" for="email">E-mail <span class="required">*</span></label>
+									<input class="form-control" type="email" name="email" id="email" placeholder="Email">
+								</div>
+
+								
+								<div class="col-xs-12 pt-20">
+									<input type="hidden" id="_wpnonce" name="_wpnonce" value="">
+									<input type="hidden" name="_wp_http_referer" value="">		
+									<input type="submit" class="button btn-default" name="login" value="Log In">
+									<input type="hidden" name="redirect" value="">
+									<label class="check-label inline" for="rememberme">
+									<input name="rememberme" type="checkbox" id="rememberme" value="forever"> Remember me		</label>
+								</div>
+								<div class="col-xs-12 pt-15 pb-20">
+									<div class="lost-password">
+										<a href="#">Forget Password?</a>
+									</div>
+								</div>
+							</form>
+						</div>
+						
+						<div class="row">
+							<div class="col-md-12 check_responsive woocommerce-billing-fields">
+								<!-- Product Row Two -->
+								<div class="small-header">
+									<h2>Billing Details</h2>
+								</div>
+							
+								<form class="contact-form pt-20">
+								
+									<div class="col-xs-12">
+										<div class="form-group">
+											<p class="help-block">Your email address will not be published. Required fields are marked *</p>
+											<label class="pt-20">Basic Information</label>
+										</div>
+									</div>
+									
+									<div class="col-xs-6">
+										<div class="form-group">
+											<input type="text" class="form-control" id="exampleInputName1" placeholder="First Name*">
+										</div>
+									</div>
+									
+									<div class="col-xs-6">
+										<div class="form-group">
+											<input type="text" class="form-control" id="exampleInputName2" placeholder="Last Name*">
+										</div>
+									</div>
+									
+									<div class="col-xs-6">
+										<div class="form-group">
+											<input type="text" class="form-control" id="exampleInputName3" placeholder="Company Name">
+										</div>
+									</div>
+									
+									<div class="col-xs-6">
+										<div class="form-group">
+											<input type="email" class="form-control" id="exampleInputEmail1" placeholder="E-mail*">
+										</div>
+									</div>
+									
+									
+									
+									<div class="col-xs-12">
+										<div class="dashed-border">
+									</div>
+										<div class="form-group pt-30">
+											<label>Address</label>
+										</div>
+									</div>
+									
+									<div class="col-xs-6">
+										<div class="form-group">
+											<input type="text" class="form-control" id="exampleInputName4" placeholder="Country*">
+										</div>
+									</div>
+									
+									<div class="col-xs-6">
+										<div class="form-group">
+											<input type="text" class="form-control" id="exampleInputEmail2" placeholder="City*">
+										</div>
+									</div>
+									
+									<div class="col-xs-6">
+										<div class="form-group">
+											<input type="text" class="form-control" id="exampleInputName5" placeholder="District/State">
+										</div>
+									</div>
+									
+									<div class="col-xs-6">
+										<div class="form-group">
+											<input type="text" class="form-control" id="exampleInputEmail3" placeholder="Street*">
+										</div>
+									</div>
+									
+									<div class="col-xs-6">
+										<div class="form-group">
+											<input type="text" class="form-control" id="exampleInputName6" placeholder="Postal Code*">
+										</div>
+									</div>
+									
+									<div class="col-xs-6">
+										<div class="form-group">
+											<input type="text" class="form-control" id="exampleInputEmail4" placeholder="Apartment Address*">
+										</div>
+									</div>
+									
+									<div class="col-xs-12 check_responsive">
+										<div class="checkbox">
+											<label class="">
+												<input type="checkbox"> Create An Account?
+											</label>
+											
+											<p class="help-block">
+												Create an account by entering the information below. If you are a new customer please login 
+												at the top of the page.
+											</p>
+										</div>
+									</div>
+									
+									<div class="col-xs-12">
+										<div class="form-group">
+											<input type="password" class="form-control" id="inputPassword3" placeholder="Password*">
+										</div>
+									</div>
+									
+									
+								</form>
+							</div>
+							<div class="col-md-12 check_responsive">
+								<div class="small-header">
+									<h2>Your Order</h2>
+								</div>
+								
+								<div class="billing-table pt-30">
+									<table class="table">
+										<thead>
+											<tr>
+												<th>Product</th>
+												<th>Quantity </th>
+												<th>Price</th>
+											</tr>
+										</thead>
+											
+										<tbody>
+											<tr class="active">
+												<td>Tamarind Juice</td>
+												<td>1</td>
+												<td>$300</td>
+											</tr>
+											<tr class="active">
+												<td>Tamarind Juice</td>
+												<td>1</td>
+												<td>$300</td>
+											</tr>
+											<tr class="active">
+												<td>Tamarind Juice</td>
+												<td>1</td>
+												<td>$300</td>
+											</tr>
+											<tr class="active">
+												<td>Tamarind Juice</td>
+												<td>1</td>
+												<td>$300</td>
+											</tr>
+											<tr class="active">
+												<td class="billing-total">Total</td>
+												<td class="billing-total">4</td>
+												<td class="billing-total">$1200</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div class="pt-20 check_responsive">
+								<div class="col-md-6">
+									<div class="payment-method pt-60">
+										<div class="small-header">
+											<h2>Payment Method</h2>
+										</div>
+										
+										<div class="checkbox pt-20">
+											<label>
+												<input type="checkbox"> Check Payment
+											</label>
+										</div>
+										<div class="checkbox pt-20">
+											<label>
+												<input type="checkbox" class="custom-checkbox"> Paypal 
+												<img class="" src="assets/images/paypal.jpg" alt="">
+											</label>
+										</div>
+										
+										<div class="pt-30">
+											<input type="submit" class="btn btn-default theme-btn" name="Submit" value="Submit">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div> <!-- end container -->
+		</section>
+		
+		<!-- Footer Area
+        ===================================== -->
+		<footer class="footer-back">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-xs-12 foot-left">
+					</div>
+					<div class="foot-right col-md-9">
+						<div class="row">
+						<div class="col-md-4 col-sm-12 col-xs-12">
+							<div class="footer-widget">
+								<img class="footer-logo" src="assets/images/logo.png" alt="">
+								
+								<p>Duis autem vel eum irure dolor vul uputate velt esse molestie cie suautem vel eupm irure dolo, ulputate velit esse molestie. Dui autem vel eum irure dolorytr ulputate velit.</p>
+								
+								<address>
+									House: 1/a, 23 Gray Street, NY, USA<br>
+									+021-3456-789<br>
+									<a href="mailto:#">support@organixmail.com</a>
+								</address>
+							</div>
+						</div>
+						
+						<div class="col-md-4 col-sm-12 col-xs-12">
+							<div class="footer-widget">
+								<h3>Insta Feed</h3>
+								
+								<div id="instagram-feed" data-instagram-username="vossen_inc"><ul></ul></div>
+							</div>
+						</div>
+						
+						<div class="col-md-4 col-sm-12 col-xs-12">
+							<div class="footer-widget">
+								<h3>Working Hour</h3>
+								
+								<table class="table table-inverse">
+									<tbody>
+										<tr>
+											<td class="working-day">Monday</td>
+											<td class="working-hour">09.00- 18.00</td>
+										</tr>
+										<tr>
+											<td class="working-day">Tuesday</td>
+											<td class="working-hour">09.00- 18.00</td>
+										</tr>
+										<tr>
+											<td class="working-day">wednesday</td>
+											<td class="working-hour">09.00- 18.00</td>
+										</tr>
+										<tr>
+											<td class="working-day">Thursday</td>
+											<td class="working-hour">09.00- 18.00</td>
+										</tr>
+										<tr>
+											<td class="working-day">Friday</td>
+											<td class="working-hour">09.00- 18.00</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="footer-copyright-content text-center ptb-60">
+							<p>Copyright &copy; 2017.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+								</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- End Section Image Content  -->
+		
+		
+		<!-- ============ Js Files ============ -->
+		    <!-- Placed at the end of the document so the pages load faster -->
+			
+			<!-- Core js -->
+			<script src="assets/js/jquery-3.1.1.min.js"></script>
+			<script src="assets/js/bootstrap.min.js"></script>	
+			
+			<script src="assets/js/menu.js"></script>	
+			<script src="assets/js/jquery.sticky.js"></script>	
+			<script src="assets/js/owl.carousel.min.js"></script>	
+			<script src="assets/js/appear.js"></script>	
+			<script src="assets/js/jquery.dcjqaccordion.min.js"></script>	
+			<!--<script src="assets/js/instagram.js"></script>-->	
+			<!-- Google Map -->
+			<script type="text/javascript" src="http://ditu.google.cn/maps/api/js?key=AIzaSyAvpnlHRidMIU374bKM5-sx8ruc01OvDjI"></script>
+			<script src="assets/js/gmap3.min.js"></script>	
+			
+			<!-- Custom Script -->		
+			<script src="assets/js/main.js"></script>	
+			
+			
+	</body>
+</html>
+
